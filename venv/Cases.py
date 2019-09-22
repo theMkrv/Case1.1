@@ -71,24 +71,24 @@ def paralellogramm(x, y, a, color):
     t.end_fill()
 
 # Вертим всем функцией - t.seth() устанавливаем значение 1 - 360
-def sayoga_zayac():
+def main():
     t.seth(45)
     square(-745, -250, 100, "purple")
     t.seth(225)
     triangle90(-500, -295, 100, "yellow")
     t.seth(45)
-    triangle90(-560, -365, 100, "blue")
+    triangle90(-560, -367, 100, "blue")
     t.seth(135)
     triangle90(-340, -435, 200, "orange")
-    t.seth(180)
-    ravb(-320, 270, 40, "red")
-    t.seth(270)
-    triangle90(-320, 220, 40, "red")
-    paralellogramm(0,0,50,"blue")
-
+    t.seth(315)
+    triangle90(-335, -152, 200, "red")
+    t.seth(45)
+    triangle90(-550, -200, 150, "purple")
+    t.seth(115)
+    paralellogramm(-200, -200, 100, "blue")
 
     t.exitonclick()
     t.mainloop()
 
 
-sayoga_zayac()
+main()
