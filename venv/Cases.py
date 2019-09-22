@@ -6,7 +6,6 @@ import turtle
 import turtle as t
 import math
 t.setup(800, 800)
-# whats my little bitch
 
 # x - corner coordinate x
 # y - corner coordinate y
@@ -73,18 +72,6 @@ def paralellogramm(x, y, a, color):
 
 # Вертим всем функцией - t.seth() устанавливаем значение 1 - 360
 def main():
-    t.seth(315)
-    triangle90(198, -302, 30, "purple")
-    t.seth(45)
-    square(200, -300, 30, "orange")
-    t.seth(135)
-    triangle90(269, -322, 65, "red")
-    t.seth(-45)
-    paralellogramm(272, -325, 30, "green")
-    t.seth(315)
-    triangle90(-322, -176, 65, "yellow")
-
-
     t.seth(0)
     paralellogramm(-340, -302, 30, "green")
     t.seth(225)
@@ -92,14 +79,12 @@ def main():
     t.seth(45)
     triangle90(-318, -268, 30, "pink")
     t.seth(45)
-    square(-295, -246, 30, "orange")
+    square(-295, -246, 31, "orange")
     t.seth(315)
     triangle90(-322, -176, 65, "red")
     t.seth(270)
-    triangle90(-325, -200, 65, "yellow")
-    triangle90(-292, -170, 30, "purple")
-
-
+    triangle90(-325, -190, 65, "yellow")
+    triangle90(-292, -175, 30, "purple")
 
     t.seth(45)
     square(-150, -250, 30, "orange")
@@ -114,54 +99,22 @@ def main():
     t.seth(45)
     triangle90(-105, -225, 50, "blue")
     t.seth(225)
-    paralellogramm(-12, -202, 30, "green")
+    paralellogramm(-10, -204, 30, "green")
 
-
-
-    t.seth(90)
-    triangle90(-350, 220, 50, "yellow")
-    t.seth(270)
-    triangle90(-319, 248, 30, "blue")
-    triangle90(-296, 218, 20, "purple")
-    t.seth(270)
-    triangle90(-300, 324, 50, "red")
-    t.seth(0)
-    square(-297, 341, 30, "orange")
-    paralellogramm(-310, 345, 25, "green")
-    t.seth(90)
-    ravb(-297, 300, 25, "pink")
-    t.seth(0)
-    triangle90(-50, 380, 70, "red")
-    t.seth(270)
-    triangle90(20, 307, 70, "yellow")
-    t.seth(90)
-    triangle90(24, 258, 50, "blue")
-    t.seth(180)
-    triangle90(74, 308, 50, "blue")
+    t.seth(315)
+    triangle90(198, -302, 30, "purple")
     t.seth(45)
-    square(-42, 310, 40, "orange")
-    t.seth(0)
-    paralellogramm(-81, 310, 35, "green")
-    t.seth(90)
-    triangle90(-81, 272, 35, "pink")
-    t.seth(270)
-    triangle90(-83, 307, 35, "purple")
-    t.seth(90)
-    triangle90(290, 230, 70, "yellow")
-    t.seth(270)
-    triangle90(343, 277, 25, "purple")
-    t.seth(0)
-    triangle90(318, 252, 25, "purple")
-    t.seth(0)
-    triangle90(218, 340, 70, "red")
-    t.seth(180)
-    triangle90(288, 342, 35, "blue")
-    t.seth(270)
-    triangle90(253, 377, 35, "blue")
-    square(360, 304, 30, "orange")
-    t.seth(270)
-    triangle90(360, 354, 20, "pink")
-    triangle90(380, 334, 20, "pink")
+    square(200, -300, 30, "orange")
+    t.seth(135)
+    triangle90(269, -322, 65, "red")
+    t.seth(-45)
+    paralellogramm(272, -325, 30, "green")
+    t.seth(315)
+    triangle90(221, -181, 65, "yellow")
+    t.seth(360)
+    triangle90(225, -177, 45, "blue")
+    t.seth(45)
+    triangle90(225, -175, 30, "purple")
 
 
     t.exitonclick()
